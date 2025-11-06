@@ -11,5 +11,11 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
   </ItemGroup>
+	<ItemGroup>
+		<None Include="res\**" CopyToOutputDirectory="Always" />
+	</ItemGroup>
+
+
+
 
 </Project>

@@ -14,7 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => opt.UseNpgsql(
     ));
 //
 
-var publicKey = File.ReadAllText("res/public.pem");
+var publicKey = File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "res", "public.pem"));
 using var rsa = RSA.Create();
 rsa.ImportFromPem(publicKey);
 var rsaKey = new RsaSecurityKey(rsa) { KeyId = "zxc" };
