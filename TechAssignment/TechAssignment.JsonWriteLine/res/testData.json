@@ -1,0 +1,34 @@
+{
+  "library": {
+    "branches": [
+      {
+        "id": "B001",
+        "name": "Central Branch",
+        "sections": [
+          {
+            "name": "Fiction",
+            "books": [
+              {
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald"
+              },
+              {
+                "title": "1984",
+                "author": "George Orwell"
+              }
+            ]
+          },
+          {
+            "name": "Science",
+            "books": [
+              {
+                "title": "A Brief History of Time",
+                "author": "Stephen Hawking"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

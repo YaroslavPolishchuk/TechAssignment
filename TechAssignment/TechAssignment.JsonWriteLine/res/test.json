@@ -1,0 +1,18 @@
+{
+  "table": {
+    "elements": [
+      {
+        "symbol": "H",
+        "name": "Hydrogen",
+        "atomic_number": 1,
+        "isotopes": [ "Protium", "Deuterium" ]
+      },
+      {
+        "symbol": "O",
+        "name": "Oxygen",
+        "atomic_number": 8,
+        "isotopes": [ "Oxygen-16", "Oxygen-18" ]
+      }
+    ]
+  }
+}

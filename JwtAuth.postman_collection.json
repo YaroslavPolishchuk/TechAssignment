@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "e8627cd0-6855-4b31-ac12-01f43c8f9ef3",
+		"name": "JwtAuth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30047074"
+	},
+	"item": [
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImtleSJ9.eyJzdWIiOiJ0ZXN0LXVzZXIgIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYyNDMzMzI4LCJleHAiOjE3NjM2NDI5Mjh9.TJ2ZAlQumDBvdIiNNv42yXwzdB9HY0fLwOMJiglGWFF513QML2q4Xpm3d2rN5ZeJdXHBGqf5OZcfJZQZv9FGEwIWgaGe0OTuFnKfRyvSS5-pm421x3qI3M1jkZKtzLXcdhNUjzNMpsEftmVV3COqwhzfXhhl4ai4kBuoWuxRsZpoLVtHNPrV-D-hGdvDp_H-TsafnOOubkLClOnJCAo6_swFeZ1OJIzVzk4wXD-CUkf3U1WMtIThWWX1KrhytX6Q3CMJ7xoDuxzMqIjdZafQckJCOYfKNNO5_F8UwxCBP8MrNGwYNTdt443gtRsgv3GVxAixcC7iMamEQqCNFBlGjw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"test_user\",\r\n  \"password\": \"thisispassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/api/login",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
